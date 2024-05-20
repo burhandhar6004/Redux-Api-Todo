@@ -36,7 +36,7 @@ const Quote = () => {
 
   return (
     <>
-      <marquee className="mt-3 display-6">{quoteData.content}- {quoteData.author}</marquee>
+      <marquee className="mt-3 display-6">{quoteData?.content}- {quoteData?.author}</marquee>
     </>
   );
 };
