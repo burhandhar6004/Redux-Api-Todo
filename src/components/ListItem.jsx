@@ -33,8 +33,8 @@ const handleDelete = (id)=>{
     <>
       <li className="list-group-item mt-2 rounded-0">
         <h1 className="display-6">
-          {todo.title} <br />
-          {todo.description}
+          {todo?.title} <br />
+          {todo?.description}
           <span className="float-end">
             <button
               className="btn btn-warning btn-sm mx-2"
